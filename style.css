@@ -342,8 +342,8 @@ transition: .5s ease-in-out;
         display: flex;
         flex-direction: column;
         text-align: center;
-        background: rgba(100%,100%,100%,20%);
-        backdrop-filter: blur(10px);
+        background-color: black;
+        color: white;
         transition: .5s;
     }
     .navbar.active{
@@ -353,6 +353,7 @@ transition: .5s ease-in-out;
     .navbar a{
         padding: 1.5rem;
         display: block;
+        color: white;
     }
     .column{
         width: 50%;
