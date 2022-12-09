@@ -26,7 +26,7 @@ header{
     padding: 30px 170px;
     background: rgba(100%,100%,100%,20%);
         backdrop-filter: blur(10px);
-    /* background-color: antiquewhite; */
+    
 }
 .logo{
     color: red;
@@ -37,7 +37,7 @@ header{
     display: flex;
     align-items: center;
     /* height: 5rem; */
-    /* background-color: aqua; */
+    
     
 }
 .navbar a{
@@ -66,7 +66,7 @@ header{
 }
 section{
     padding: 70px 17%;
-
+    
 }
 .home{
     width: 100%;
@@ -162,6 +162,7 @@ transition: .5s ease-in-out;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     grid-gap: 1.5rem;
     align-items: center;
+    
 }
 .box{
     position: relative;
@@ -234,6 +235,7 @@ transition: .5s ease-in-out;
     width: 66%;
     margin: 100px auto;
     border-radius: 10px;
+    
 }
 .contact h2{
     font-size: 4rem;
@@ -257,13 +259,15 @@ transition: .5s ease-in-out;
 .main{
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 .footer{
     padding: 10p 0;
+    
 }
 .column{
     width: 25%;
+    
 }
 .column h4{
     font-size: 1.3rem;
@@ -280,15 +284,11 @@ transition: .5s ease-in-out;
     bottom: -8px;
     background-color: red;
 }
-.column ul li:not(last-child){
-    margin-bottom: 15px;
-
-}
 .column ul li a{
     color: rgb(81, 81, 81);
     font-size: 1.1rem;
     display: block;
-    text-transform: capitalize;
+    line-height: 40px;
     transition: .5s;
 }
 .column ul li a:hover{
